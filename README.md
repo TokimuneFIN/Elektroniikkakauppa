@@ -1,2 +1,2 @@
 # Vaadin web -harjoitustyö
-##¤ Kaius Kolehmainen
+## Kaius Kolehmainen
