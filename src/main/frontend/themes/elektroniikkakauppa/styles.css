@@ -1,0 +1,33 @@
+@import url('./main-layout.css');
+@import url('./views/products-view.css');
+@import url('./views/product-info-view.css');
+@import url('./views/categories-view.css');
+@import url('./views/suppliers-view.css');    html, spreadsheet-view-export, grid-with-filters-view-export {
+      --lumo-border-radius-s: calc(var(--lumo-size-m) / 6);
+      --lumo-border-radius-m: calc(var(--lumo-size-m) / 2);
+      --lumo-border-radius-l: var(--lumo-size-m);
+      --lumo-primary-color-50pct: hsla(159, 90%, 52%, 0.5);
+      --lumo-primary-color-10pct: hsla(159, 90%, 52%, 0.1);
+      --lumo-error-color-50pct: hsla(3, 100%, 50%, 0.5);
+      --lumo-error-color-10pct: hsla(3, 100%, 50%, 0.1);
+      --lumo-success-color-50pct: hsla(109, 87%, 47%, 0.5);
+      --lumo-success-color-10pct: hsla(109, 87%, 47%, 0.1);
+      --lumo-primary-color: hsl(159, 90%, 52%);
+      --lumo-error-color: hsl(3, 100%, 50%);
+      --lumo-success-color: hsl(109, 87%, 47%);
+
+    }
+    html {
+  --lumo-font-family: 'Comic Sans MS', sans-serif; /* Tai joku ammattimaisempi */
+  --lumo-primary-color: #ff5733; /* Oma brändiväri */
+}
+vaadin-button {
+  transition: transform 0.2s ease-in-out;
+}
+vaadin-button:hover {
+  transform: scale(1.05);
+}
+.login-view {
+  background-color: #f4f4f9;
+  border-radius: 15px;
+}
